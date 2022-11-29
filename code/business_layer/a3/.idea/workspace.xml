@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="a3:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d79db409-85eb-4d5a-bb35-909c90195d37" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../a3.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/a3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Enums/AdminSQL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Enums/CourseSQL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Enums/DBModelTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Enums/StudentCourseSQL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Enums/StudentSQL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Enums/TokenSQL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Factories/MapperFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Factories/PersonFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Interfaces/DBModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Interfaces/InheritanceMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Interfaces/PersonMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/JspConfig/CorsFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/JspConfig/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Mappers/AdministratorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Mappers/CourseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Mappers/StudentCourseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Mappers/StudentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Mappers/TokenMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Models/Administrator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Models/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Models/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Models/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Models/StudentCourse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/java/com/a3/Models/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/WEB-INF/lib/json-20220320.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/WEB-INF/lib/protobuf-java-3.19.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/admin/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/admin/find.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/admin/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/admin/post.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/admin/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/auth/admin-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/auth/logout.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/auth/student-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/auth/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/course/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/course/find.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/course/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/course/post.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/course/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/student-course/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/student-course/find.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/student-course/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/student-course/get_courses.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/student-course/get_students.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/student-course/post.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/student/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/student/find.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/student/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/student/post.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/src/main/webapp/student/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/CorsFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Enums/AdminSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Enums/CourseSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Enums/GatewayTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Enums/StudentCourseSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Enums/StudentSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Enums/TokenSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/GatewayUtils/GatewayFinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/GatewayUtils/UserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Interfaces/RowGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Interfaces/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Interfaces/UserGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Models/Administrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Models/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Models/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Models/StudentCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Models/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/classes/com/a2/Models/UserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/lib/json-20220320.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.19.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/admin/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/admin/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/admin/get_id.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/admin/post.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/admin/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/auth/admin-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/auth/logout.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/auth/student-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/auth/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/course/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/course/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/course/get_id.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/course/post.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/course/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/student-course/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/student-course/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/student-course/get_courses.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/student-course/get_id.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/student-course/get_students.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/student-course/post.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/student/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/student/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/student/get_id.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/student/post.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a2-1.0-SNAPSHOT/student/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/CorsFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Enums/AdminSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Enums/CourseSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Enums/DBModelTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Enums/GatewayTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Enums/StudentCourseSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Enums/StudentSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Enums/TokenSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/GatewayUtils/GatewayFinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/GatewayUtils/UserFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Interfaces/DBModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Interfaces/InheritanceMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Interfaces/PersonMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Interfaces/RowGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Interfaces/UserGateway.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Mappers/AdministratorMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Mappers/CourseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Mappers/StudentCourseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Mappers/StudentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Mappers/TokenMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Models/Administrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Models/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Models/DBModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Models/DBPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Models/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Models/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Models/StudentCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Models/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Utils/DBModelFinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Utils/MapperFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/classes/com/a3/Utils/PersonFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/lib/json-20220320.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.30.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.19.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/admin/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/admin/find.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/admin/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/admin/get_id.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/admin/post.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/admin/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/auth/admin-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/auth/logout.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/auth/student-login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/auth/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/course/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/course/find.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/course/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/course/get_id.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/course/post.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/course/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/student-course/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/student-course/find.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/student-course/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/student-course/get_courses.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/student-course/get_id.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/student-course/get_students.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/student-course/post.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/student/delete.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/student/find.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/student/get.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/student/post.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/a3-1.0-SNAPSHOT/student/update.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Enums/AdminSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Enums/CourseSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Enums/DBModelTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Enums/StudentCourseSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Enums/StudentSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Enums/TokenSQL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Interfaces/DBModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Interfaces/InheritanceMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Interfaces/PersonMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/JspConfig/CorsFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/JspConfig/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Mappers/AdministratorMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Mappers/CourseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Mappers/StudentCourseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Mappers/StudentMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Mappers/TokenMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Models/Administrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Models/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Models/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Models/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Models/StudentCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Models/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Utils/MapperFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../a3/target/classes/com/a3/Utils/PersonFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/Spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/dialogs/CourseRegistrationDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/dialogs/CoursesByStudentDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/dialogs/CreateCourseDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/dialogs/StudentsByCourseDialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/forms/CourseForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/layout/AuthAlerts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/layout/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/layout/MainAlerts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/layout/StudentCourses.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/routers/PrivateRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/routers/PublicRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/routers/UserRoute.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/tables/AdminCourseTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/tables/AdminStudentTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/tables/CourseRegistrationTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/tables/CourseStudentsTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/components/tables/StudentCoursesTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/pages/NoMatch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/pages/TestPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/pages/auth/AdminLogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/pages/auth/AdminSignup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/pages/auth/StudentLogin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/pages/auth/StudentSignup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/pages/auth/UserType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/pages/home/AdminCourseManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/pages/home/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/pages/home/StudentCourseRegistration.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/actions/adminActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/actions/authActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/actions/courseActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/actions/messageActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/actions/studentActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/actions/studentCourseActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/actions/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/reducers/adminReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/reducers/authReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/reducers/courseReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/reducers/errorReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/reducers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/reducers/messageReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/reducers/studentCourseReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/reducers/studentReducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/redux/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../course_registration/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HOrw0MeioqDeYPNMt7NoUJY00c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3908046" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\delis\Documents\UNI9\387_SOEN\Assignments\A2\a2\src\main\webapp\student-course" />
+      <recent name="C:\Users\delis\Documents\UNI9\387_SOEN\Assignments\A2\a2\src\main\webapp" />
+      <recent name="C:\Users\delis\Documents\UNI9\387_SOEN\Assignments\A2\a2\src\main\webapp\auth" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.a3.Mappers" />
+      <recent name="com.a2.Enums" />
+      <recent name="com.a2.Models" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TomcatXAMPP" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.781" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="a3:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/a3_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="a7a8ab99-5969-4b3f-8361-04815dbb0073" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58436" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="a2:war" />
+          <artifact name="a3:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d79db409-85eb-4d5a-bb35-909c90195d37" name="Changes" comment="" />
+      <created>1668167209839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668167209839</updated>
+      <workItem from="1668167213746" duration="404000" />
+      <workItem from="1668167637870" duration="8764000" />
+      <workItem from="1668186169233" duration="11750000" />
+      <workItem from="1668253311694" duration="21535000" />
+      <workItem from="1668369480305" duration="3303000" />
+      <workItem from="1668512105482" duration="3691000" />
+      <workItem from="1668603647894" duration="15654000" />
+      <workItem from="1668684416166" duration="4816000" />
+      <workItem from="1668699256559" duration="964000" />
+      <workItem from="1668700244389" duration="170000" />
+      <workItem from="1668700434961" duration="155000" />
+      <workItem from="1668700608453" duration="1004000" />
+      <workItem from="1668703390503" duration="138000" />
+      <workItem from="1669207854104" duration="192000" />
+      <workItem from="1669208093521" duration="2323000" />
+      <workItem from="1669217592497" duration="2504000" />
+      <workItem from="1669298551377" duration="1298000" />
+      <workItem from="1669398572847" duration="8065000" />
+      <workItem from="1669464103095" duration="6694000" />
+      <workItem from="1669489498810" duration="10545000" />
+      <workItem from="1669572797391" duration="772000" />
+      <workItem from="1669573601980" duration="2168000" />
+      <workItem from="1669754040385" duration="313000" />
+      <workItem from="1669754365458" duration="25000" />
+      <workItem from="1669754443063" duration="49000" />
+      <workItem from="1669757047020" duration="104000" />
+      <workItem from="1669757455224" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../../.." />
+      <path value="$USER_HOME$" />
+    </ignored-roots>
+  </component>
+</project>
